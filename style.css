@@ -1,0 +1,33 @@
+.header{
+
+    display: flex;
+    background-image : url("Background-Image.jpg");
+    font-size : 20px;
+    color : #3939afe5;
+    justify-content: space-evenly;
+    font-family : sans-serif;
+    border-radius:  15px; 
+}
+
+.menu{
+
+    display: flex;
+    font-size: 15px;
+}
+
+.origami{
+
+    display: flex;
+    justify-content: flex-start;
+    text-align : left;
+    flex-wrap : wrap;
+    font-size : 15px;
+    border : inset;
+    border-radius : 10px ;
+    font-family : Arial;
+}
+
+.break {
+    flex-basis : 100%;
+    height : 0;
+}
